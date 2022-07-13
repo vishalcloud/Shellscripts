@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# pass a parameter to script as image name. eg. ./removeImages.sh hello-world
+# pass a parameter to script as image name. eg. ./dockerImageRemoval.sh hello-world
 timestamp=$(date +%Y%m%d_%H%M%S)
 log_path="`pwd`"
 filename=docker_cleanup_$timestamp.log
